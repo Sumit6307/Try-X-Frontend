@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://x-backend-1-zhox.onrender.com/api',
 });
 
 // Request interceptor to add auth token
